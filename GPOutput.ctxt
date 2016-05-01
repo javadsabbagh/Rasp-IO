@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=GPOutput()
+comment0.text=\n\ Create\ an\ object\ corresponding\ to\ a\ physical\ pin\ GPIO\ 1.\n
+comment1.params=gpioNumber
+comment1.target=GPOutput(int)
+comment1.text=\n\ Create\ an\ object\ corresponding\ to\ a\ physical\ GPIO\ pin\n\ \n\ @param\ gpioNumber\ \ The\ logical\ GPIO\ number\ [0..15]\ (see\ Raspberry\ Pi\ model\ B+\ documentation)\n
+comment2.params=
+comment2.target=void\ on()
+comment2.text=\n\ Switch\ on\ (set\ pin\ to\ HIGH)\n
+comment3.params=
+comment3.target=void\ off()
+comment3.text=\n\ Switch\ off\ (set\ pin\ to\ LOW)\n
+comment4.params=n\ time
+comment4.target=void\ blink(int,\ int)
+comment4.text=\n\ Blink\ n\ times.\ Time\ controls\ the\ speed\ of\ blinking.\n\ \n\ @param\ n\ \ The\ number\ of\ blinks\n\ @param\ time\ \ The\ time\ in\ milliseconds\ of\ a\ single\ on/off\ cycle\n
+comment5.params=millis
+comment5.target=void\ wait(int)
+comment5.text=\n\ Wait\ 'millis'\ milliseconds.\n
+numComments=6

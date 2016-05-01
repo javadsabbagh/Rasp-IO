@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Button()
+comment0.text=\n\ Create\ an\ object\ representing\ a\ button\ at\ pin\ GPIO\ 4.\n
+comment1.params=gpioNumber
+comment1.target=Button(int)
+comment1.text=\n\ Create\ an\ object\ representing\ a\ button\ connected\ to\ a\ GPIO\ pin.\n\ \n\ @param\ gpioNumber\ \ The\ logical\ GPIO\ number\ [0..15]\ (see\ Raspberry\ Pi\ model\ B+\ documentation)\n
+comment2.params=
+comment2.target=boolean\ isDown()
+comment2.text=\n\ True\ if\ the\ button\ is\ currently\ pressed.\n
+comment3.params=
+comment3.target=boolean\ isUp()
+comment3.text=\n\ True\ if\ the\ button\ is\ currently\ not\ pressed.\n
+comment4.params=listener
+comment4.target=void\ addListener(ButtonListener)
+comment5.params=evt
+comment5.target=void\ handleGpioPinDigitalStateChangeEvent(com.pi4j.io.gpio.event.GpioPinDigitalStateChangeEvent)
+numComments=6
